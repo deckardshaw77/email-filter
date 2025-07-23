@@ -1,0 +1,5 @@
+emails = ["New Lead from Form", "Daily Report", "Zoom Invite", "Cybersecurity Lead"]
+
+for subject in emails:
+    if "lead" in subject.lower():
+        print(subject)
